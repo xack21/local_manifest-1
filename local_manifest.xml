@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="mi-thorium"
+           fetch="https://github.com/Mi-Thorium"
 
-<!-- Remotes -->
+   <remote  name="mi-thorium"
+            fetch="https://github.com/Mi-Thorium"
 
-   <remote name="ItoRenz" fetch="https://github.com/ItoRenz-Build" />
+ 
+<!-- Trees -->
+   
+
   
-  <!-- Device Tree -->
-    <project path="vendor/xiaomi/land" name="vendor_xiaomi_land" remote="ItoRenz" revison="12.1" />
-    <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_msm8937" remote="ItoRenz" revision="12.1" /> 
-  
-   <!-- Remotes -->
-
-   <remote name="xack21" fetch="https://github.com/xack21" />
-           
-   <!-- Device Tree -->
-     <project path="device/xiaomi/land" name="device_xiaomi_land-3" remote="xack21" revision="12.1" />
-           
-  </manifest>
