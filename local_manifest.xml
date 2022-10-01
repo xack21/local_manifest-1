@@ -3,7 +3,7 @@
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
 
-  <remote  name="xack"
+  <remote name="xack"
            fetch="https://github.com/xack21"
  
 <!-- Trees -->
