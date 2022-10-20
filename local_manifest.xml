@@ -12,6 +12,12 @@
 <remote  name="kdrag0n"
            fetch="https://github.com/kdrag0n" />
            
+<remote  name="mi-sdm439"
+           fetch="https://github.com/mi-sdm439" />
+ 
+<remote  name="lineage"
+           fetch="https://github.com/LineageOS" />
+        
 <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="xack" revision="a13/staging" />
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" remote="mi-thorium" revision="a12/master" />
@@ -23,6 +29,9 @@
   <project path="device/xiaomi/Mi8937" name="android_device_xiaomi_Mi8937" remote="xack" revision="a13/master" />
   <project path="vendor/xiaomi/Mi8937" name="proprietary_vendor_xiaomi_Mi8937" remote="mi-thorium" revision="a11/master" />
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1" />
+  <project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mi-thorium" revision="lineage-19.1-caf-msm8953" />
+  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="lineage" revision="lineage-18.1" />
            
 </manifest> 
 
