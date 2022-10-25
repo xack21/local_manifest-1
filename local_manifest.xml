@@ -17,7 +17,6 @@
         
 <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="xack" revision="a13/staging" />
-  <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" remote="mi-thorium" revision="a12/master" />
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" remote="mi-thorium" revision="a12/master" />
 
  <!-- Kernel for Mi8937 & Tiare -->
