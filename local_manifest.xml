@@ -26,6 +26,8 @@
   <project path="device/xiaomi/Mi8937" name="android_device_xiaomi_Mi8937" remote="xack" revision="a13/master" />
   <project path="vendor/xiaomi/Mi8937" name="proprietary_vendor_xiaomi_Mi8937" remote="mi-thorium" revision="a11/master" />
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+  <remove-project name="android_vendor_arrow" />
+  <project path="vendor/arrow" name="android_vendor_arrow" remote="xack" revision="arrow-13.0"
 
 </manifest> 
 
