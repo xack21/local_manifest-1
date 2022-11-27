@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="mi-msm8937" fetch="https://github.com/mi-msm8937" />  
-         
-<remote name="mi-thorium" fetch="https://github.com/Mi-Thorium" />
-      
-<remote name="xack" fetch="https://github.com/xack21" />
- 
-<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+<remote name="mi-msm8937" fetch="https://github.com/mi-msm8937" />
         
-<remote name="mi-sdm439" fetch="https://github.com/mi-sdm439" />
+<remote name="mi-thorium" fetch="https://github.com/Mi-Thorium" />
+     
+<remote name="xack" fetch="https://github.com/xack21" />
+
+<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
 <remote name="clang" fetch="https://gitlab.com/Amritorock" />
         
