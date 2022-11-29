@@ -7,7 +7,6 @@
 <remote name="clang" fetch="https://gitlab.com/Amritorock" />
 <remote name="miku" fetch="https://github.com/Miku-UI" />
 <remote name="crd" fetch="https://github.com/crdroidandroid" />
-<remote name="los" fetch="https://github.com/LineageOS" />
         
 <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="xack" revision="a13/staging" />
@@ -24,8 +23,7 @@
   <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom-caf_msm8996_display" remote="xack" revision="snowland" />
   <remove-project name="android_vendor_arrow" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="xack" revision="arrow-13.0" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crd" revision="11.0" />
-  <project path="vendor/lineage" name="android_vendor_lineage" remote="los" revision="lineage-20.0" />                                 
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crd" revision="11.0" />                            
 </manifest>
 
 
