@@ -27,7 +27,7 @@
   <project path="vendor/superior" name="android_vendor_superior" remote="xack" revision="thirteen" />
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crd" revision="11.0" />
   <project path="hardware/qcom-caf/msm8953/audio" name="hardware_qcom-caf_msm8953_audio" remote="pe" revision="trece" />
-  <project path="hardware/qcom-caf/msm8953/display" name="hardware_qcom-caf_msm8953_audio" remote="pe" revision="trece" />
+  <project path="hardware/qcom-caf/msm8953/display" name="hardware_qcom-caf_msm8953_display" remote="pe" revision="trece" />
   <projrct path="hardware/qcom-caf/msm8953/media" name="hardware_qcom-caf_msm8953_media" remote="pe" revision="trece" />
   <remove-project name="android_system_core" />
   <project path="system/core" name="android_system_core" remote="xack" revision="thirteen" />
