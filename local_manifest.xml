@@ -6,8 +6,7 @@
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 <remote name="clang" fetch="https://gitlab.com/Amritorock" />
 <remote name="crd" fetch="https://github.com/crdroidandroid" />
-<remote name="pe" fetch="https://github.com/PixelExtended" />
-        
+<remote name="kn" fetch="https://github.com/karann2354" />       
 <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="xack" revision="a13/staging" />
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" remote="mi-thorium" revision="a12/master" />
@@ -26,9 +25,10 @@
   <remove-project name="android_vendor_superior" />
   <project path="vendor/superior" name="android_vendor_superior" remote="xack" revision="thirteen" />
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crd" revision="11.0" />
-  <project path="hardware/qcom-caf/msm8953/audio" name="hardware_qcom-caf_msm8953_audio" remote="pe" revision="trece" />
-  <project path="hardware/qcom-caf/msm8953/display" name="hardware_qcom-caf_msm8953_display" remote="pe" revision="trece" />
-  <projrct path="hardware/qcom-caf/msm8953/media" name="hardware_qcom-caf_msm8953_media" remote="pe" revision="trece" />
+  <project path="hardware/qcom-caf/msm8953/audio" name="msm8953_hals" remote="kn" revision="audio" />
+  <project path="hardware/qcom-caf/msm8953/display" name="msm8953_hals" remote="kn" revision="display" />
+  <projrct path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="kn" revision="media" />
+  <project path="hardware/qcom-caf/msm8953/wlan" name="msm8953_hals" remote="kn" revision="wlan" />
   <remove-project name="android_system_core" />
   <project path="system/core" name="android_system_core" remote="xack" revision="thirteen" />
 </manifest>
