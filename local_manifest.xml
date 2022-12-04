@@ -19,7 +19,7 @@
   <project path="vendor/xiaomi/Mi8937" name="proprietary_vendor_xiaomi_Mi8937" remote="mi-thorium" revision="a11/master" />
   <project path="vendor/xiaomi/Mi8937-2" name="proprietary_vendor_xiaomi_Mi8937-2" remote="mi-thorium" revision="a11/master" />
   <project path="device/xiaomi/land-camera" name="android_device_xiaomi_land-camera" remote="mi-thorium" revision="a12/master" />
-  <project path="device/xiaomi/mi8937-camera" name="android_device_xiaomi_mi8937-camera" remote="mi-thorium" revision="a12/master" />
+  <project path="device/xiaomi/mi8937-camera" name="android_device_xiaomi_mi8937-camera" remote="mi-thorium" revision="sairam/a12/master" />
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <remove-project name="android_vendor_superior" />
@@ -31,8 +31,3 @@
   <remove-project name="android_system_core" />
   <project path="system/core" name="android_system_core" remote="xack" revision="thirteen" />
 </manifest>
-
-
-   
-
-  
