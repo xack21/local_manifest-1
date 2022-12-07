@@ -23,7 +23,7 @@
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
   <project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mi-thorium" revision="lineage-19.1-caf-msm8953" />
   <remove-project name="android_hardware_qcom_wlan" />
-  <project path="hardware_qcom_wlan" name="android_hardware_qcom_wlan" remote="mi-thorium" revision="lineage-19.1-caf" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="mi-thorium" revision="lineage-19.1-caf" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <remove-project name="android_vendor_superior" />
   <project path="vendor/superior" name="android_vendor_superior" remote="xack" revision="thirteen" />
