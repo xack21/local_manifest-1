@@ -34,4 +34,6 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crd" revision="11.0" />
   <remove-project name="android_system_core" />
   <project path="system/core" name="android_system_core" remote="xack" revision="thirteen" />
+  <remove-project name="android_packages_modules_Bluetooth" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="xack" revision="thirteen" />
 </manifest>
