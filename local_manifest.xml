@@ -19,7 +19,7 @@
   <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" remote="mi-thorium" revision="a12/master" />
 
  <!-- Kernel for Mi8937 & Tiare -->
-  <project path="kernel/xiaomi/msm8937" name="kernels" remote="mi-thorium" revision="mi8937/lineage-20" />
+  <project path="kernel/xiaomi/msm8937" name="msm-4.19-1" remote="xack" revision="mi-msm8937" />
   
 <!-- Mi8937 -->
   <project path="device/xiaomi/Mi8937_4_19" name="android_device_xiaomi_Mi8937" remote="xack" revision="k4.19/a13/master" />
