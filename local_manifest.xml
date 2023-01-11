@@ -9,6 +9,11 @@
 <remote name="kn" fetch="https://github.com/karann2354" /> 
 <remote name="pe" fetch="https://github.com/PixelExtended" />
 <remote name="mi-sdm439" fetch="https://github.com/mi-sdm439" />
+<remote name="los" fetch="https://github.com/LineageOS" />
+
+ <!-- Extras -->
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.1" />
 
  <!-- Hardware -->
   <project path="hardware/mithorium-4.9"  name="android_hardware_mithorium-4.9"  groups="device" remote="mi-thorium" revision="lineage-19.1-k4.9"/>
@@ -36,4 +41,6 @@
   <project path="system/core" name="android_system_core" remote="xack" revision="thirteen" />
   <remove-project name="android_packages_modules_Bluetooth" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="xack" revision="thirteen" />
+  <remove-project name="android_system_security" />
+  <project path="system/security" name="android_system_security" remote="xack" revision="thirteen" />
 </manifest>
